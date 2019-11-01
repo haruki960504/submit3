@@ -1,6 +1,7 @@
 <?php
 
-/*function sum($max){
+/*
+function sum($max){
     
     $result = 0;
     
@@ -16,62 +17,58 @@ echo sum(100);
 */
 
 //課題1
-/*function twice($o){
+/*
+function twice($n){
     
-    $result = $o*2;
-    
-    return $result;
+        return $n*2;
 }
 
 echo twice(10)
 */
 
 //課題2
-/*function f($a, $b){
+/*
+function plus($n1, $n2){
     
-    $result = $a + $b;
-    
-    return $result;
+        return $n1 + $n2;
 }
-echo f(3,5);
+echo plus(3,5);
 */
 
 //課題3
-/*function f($arr){
+/*
+function calculation($arr){
     
     $result = $arr[0]*$arr[1]*$arr[2]*$arr[3]*$arr[4];
     
     return $result;
 }
 $array = [1,3,5,7,9];
-echo f($array);
+echo calculation($array);
 */
 
 //課題4
 
-$arr = array (2,4,6,8);
-
- function max_array($arr){
+/*
+function max_array($arr){
 // とりあえず配列の最初の要素を一番大きい値とする
- $max_number = $arr[0];
+$max_number = $arr[0];
 
-/* foreach($arr as $a){
+  foreach($arr as $a){
 
-if($max_number < $a){
+    if($max_number < $a){
     
     $max_number = $a;
     }
-else{
-    
-    $max_number = $max_number;
-    }
 
- return $max_number;
- }
- */
- }
- 
- echo 3;
+  }
+
+return $max_number;
+
+}
+
+*/
+
  
  //課題5
  /*
@@ -91,7 +88,7 @@ print_r($result);
 */
 
 /*
-現在の Unix タイムスタンプを返す
+現在の Unix タイムスタン���を返す
 $nextWeek = time() + (7 * 24 * 60 * 60);
                    // 7 日 * 24 時間 * 60 分 * 60 秒
 echo 'Now:       '. date('Y-m-d') ."\n";
