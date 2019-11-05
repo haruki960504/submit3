@@ -43,8 +43,8 @@ function calculation($arr){
     
     return $result;
 }
-$array = [1,3,5,7,9];
-echo calculation($array);
+$arr = [1,3,5,7,9];
+echo calculation($arr);
 */
 
 //課題4
