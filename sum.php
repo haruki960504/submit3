@@ -32,20 +32,23 @@ function plus($n1, $n2){
     
         return $n1 + $n2;
 }
+
 echo plus(3,5);
 */
 
 //課題3
-/*
-function calculation($arr){
-    
-    $result = $arr[0]*$arr[1]*$arr[2]*$arr[3]*$arr[4];
-    
-    return $result;
+/課題3
+function calcMultiplicationOfArray($arr){
+   // $result = 1;
+   // foreach ($arr as $num) {
+   //     $result *= $num;
+   // }
+   // return $result;
+   return array_product($arr);
 }
-$arr = [1,3,5,7,9];
-echo calculation($arr);
-*/
+$array = [1,3,5,7,9];
+echo "\n========【課題3】========\n";
+echo calcMultiplicationOfArray($array) . "\n";
 
 //課題4
 
